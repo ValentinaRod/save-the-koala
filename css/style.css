@@ -6,9 +6,11 @@ green 2	:	#A89F68
 *{
 	margin: 0;
 	padding: 0;
+
 }
 
 .containerbienvenida {
+	width: 100%;
 	background: url('../img/portada.jpg');
 	background-repeat: no-repeat;
 	height: 100vh; /*esto utilizara el 100% del alto de la pantalla*/
@@ -58,6 +60,7 @@ li a{
 .textobienvenida button { 
 	background: #41521F;
 	border: none;
+	font-weight: bold;
 }
 
 
@@ -85,3 +88,53 @@ li a{
 
 	
 }
+
+/*SECTION 3-------------------------*/
+
+.section-three{
+	background: #A89F68;
+	height: 600px;
+}
+
+.containerthree2 img{
+	display: row;
+	flex-direction: row-reverse;
+}
+
+.containerthree h5{
+	margin-top: 110px;
+	margin-left: 160px;
+	margin-bottom: 0;
+	color: white;
+}
+
+.containerthree span {
+	color: #41521F;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 160px;
+}
+
+.containerthree p {
+	color: white;
+	margin-left: 160px;
+	font-weight: bold;
+}
+
+.containerthree button{
+	margin-left: 160px;
+	background: #41521F;
+	border: none;
+	font-weight: bold;
+}
+
+.containerthree2 img{
+	margin-top: 80px;
+	border: white 20px solid;
+	width: 500px;
+	height: 366px;
+	
+}
+
+
+
