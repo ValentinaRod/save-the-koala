@@ -140,6 +140,7 @@ li a{
 
 .section-four {
 	background: url('../img/all.jpg');
+	background-repeat: no-repeat;
 	width: 100%;
 	height: 100vh;
 }
@@ -163,4 +164,25 @@ li a{
     font-size: 12px;
     font-weight: bold;
     margin-left: 100px;
+}
+
+/*SECCION 5----------------------------------*/
+
+.section-five{
+	background: white;
+}
+
+.text {
+	color: #A89F68;
+	margin-top: 100px;
+}
+
+.section-five i{
+	margin-left: 160px;
+	color: #A89F68;
+}
+
+.section-five p{
+	padding: 80px;
+	padding-top: 60px;
 }
