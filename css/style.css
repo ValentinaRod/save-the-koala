@@ -2,3 +2,69 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.containerbienvenida {
+	background: url('../img/portada.jpg');
+	background-repeat: no-repeat;
+	height: 100vh; /*esto utilizara el 100% del alto de la pantalla*/
+	background-size: cover; /*te ocupa todo el espacio*/
+	
+}
+
+#mi {   /*Save the koala*/
+
+		 display: flex;
+		 text-shadow: -5px -5px 5px #aaa;
+		 margin: 30px;
+		 padding-left: 100px; /*Esto me mueve los elementos parecido al position relative*/
+		 font-size: 12px;
+		 color: white;
+		 justify-content: center;
+}
+
+/*poner del toggle*/
+
+li a{
+	
+	color: white;
+	font-size: 12px;
+	padding-left: 100px;
+	
+}	
+
+
+
+.textobienvenida  {
+	
+	font-size: 12px;
+	color: white;
+	margin: 50px;
+	padding-top: 135px;
+	padding-left: 60px;
+	font-weight: bold;
+
+}
+.textobienvenida .row h1{  /*Save the koala*/
+	font-weight: bold;
+
+
+}
+
+.textobienvenida button { 
+	background: #41521F;
+	border: none;
+}
+
+
+/* SECTION 2--------------------------------------*/
+
+.section-two img{
+	width: 500px;
+	right: 557px;
+	margin: 40px;
+	margin-left: 70px;
+}
