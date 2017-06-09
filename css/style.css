@@ -1,6 +1,7 @@
 /*
 wood brown: A89F68;
 army green: 41521F;
+green 2	:	#A89F68
 */
 *{
 	margin: 0;
@@ -62,9 +63,25 @@ li a{
 
 /* SECTION 2--------------------------------------*/
 
+.sectiom-two{
+	height: 700px;
+}
+
 .section-two img{
-	width: 500px;
-	right: 557px;
+	width: 400px;
+	right: 456px;
 	margin: 40px;
-	margin-left: 70px;
+	margin-left: 250px;
+	height: 600px;
+}
+
+.containerFund1 {
+	margin-top: 250px;
+}
+
+.containerFund1 h3 {
+	color: #A89F68;
+	font-weight: bolder;
+
+	
 }
