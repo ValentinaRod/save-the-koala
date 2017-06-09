@@ -1,7 +1,7 @@
 /*
 wood brown: A89F68;
 army green: 41521F;
-green 2	:	#A89F68
+green 2	:	A89F68
 */
 *{
 	margin: 0;
@@ -185,4 +185,58 @@ li a{
 .section-five p{
 	padding: 80px;
 	padding-top: 60px;
+}
+
+/*SECCION 6------------------------------*/
+
+.section-six {
+	background: #A89F68;
+	height: 600px;
+
+}
+.pay {
+	font-size: 70px;
+	color: white;
+
+} 
+
+.pay sup {
+	font-size: 20px;
+	color: white;
+
+} 
+
+.pay sub {
+	font-size: 12px;
+	color: white;
+
+} 
+
+.text1 {
+	color: #41521F;
+	font-weight: bold;
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+.section-six h6{
+	font-size: 12px;
+	color: #41521F;
+}
+
+.section-six p{
+	font-size: 12px;
+	font-weight: bold;
+}
+	
+hr{
+	width: 50%;
+	margin-left: 100px;
+}
+
+.section-six button{
+	
+	background: #41521F;
+	border: none;
+	font-weight: bold;
 }
